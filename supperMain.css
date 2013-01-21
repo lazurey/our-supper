@@ -1,0 +1,130 @@
+.ordTable
+{
+  border-collapse : collapse;
+	border-spacing: 5px 5px;
+}
+
+.tdRemark
+{
+	word-break:break-all;
+	width:150px;
+}
+
+.tdName
+{
+	word-break:break-all;
+	width:130px;
+}
+
+.tdStaffId
+{
+	word-break:break-all;
+	width:150px;
+}
+
+.order
+{
+	background-color : #FFF0F5;
+	padding-left : 20px;
+	padding-top : 5px;
+	width : 300px;
+	height : 180px;
+	-webkit-border-radius: 20px;
+	-webkit-border-top-right-radius: 50px;
+	-webkit-border-bottom-left-radius: 50px;
+	-moz-border-radius: 20px;
+	-moz-border-radius-topright: 50px;
+	-moz-border-radius-bottomleft: 50px;
+	border-radius: 20px;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	border-style: solid;
+	border-width: thin;
+}
+
+.leftPart
+{
+	float : left;
+	margin-right : 30px;
+	margin-top : 10px;
+	width : 305px;
+	height : 300px;
+}
+
+.ordList
+{
+	float : left;
+	margin-top : 10px;
+	margin-right : 10px;
+	margin-left : 10px;
+}
+
+.main
+{
+	width : 900px;
+	position : relative;
+	padding-top : 5px;
+	padding-left : 5px;
+	margin-left : auto;
+	margin-right : auto;
+	background: white;
+	border: #E9F1EE 2px solid;
+	min-height: 500px;
+}
+.logoDiv
+{
+	margin-left : 250px;
+}
+.menu
+{
+	position : fixed;
+	right : 10px;
+	top : 150px;
+	background-color : #FFF0F5;
+	width : 100px;
+	height : 120px;
+	padding : 10px;
+	border-style: solid;
+	border-width: thin;
+}
+
+a
+{
+	color : #4682B4;
+	text-decoration : none;
+	font-family : Î¢ÈíÑÅºÚ;	
+}
+
+a:hover
+{
+	color : #6A5ACD;
+	background-color : #D3D3D3;
+	text-decoration : underline;
+	font-family : Î¢ÈíÑÅºÚ;
+	
+}
+
+#cancelOrdDiv
+{
+	width : 200px;
+	height : 180px;
+	background-color : #DCDCDC;
+	padding : 5px;
+	position : fixed;
+	right : 0px;
+	top : 300px;
+}
+
+#footer {
+	clear: both;
+	color: #999;
+	padding-top: 6px;
+	padding-right: 5px;
+	margin-top: 40px;
+	overflow: hidden;
+	border-top: 1px dashed #DDD;
+	text-align: center;
+	margin-bottom: 10px;
+	width : 840px;
+	bottom: 0;
+}
